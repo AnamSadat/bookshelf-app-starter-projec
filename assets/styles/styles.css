@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dad2ff;
+}
+
+#header {
+  background-color: #493d9e;
+  padding: 10px 5px 10px 5px;
+}
+
+#header h1 {
+  color: white;
+  text-align: center;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#label {
+  display: inline;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #493d9e;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+#label {
+  display: inline;
+}
+
+#searchBookTitle {
+  width: 80%;
+  margin: 0px 0px 0px 10px;
+}
+
+button {
+  background-color: #7886c7;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: #493d9e;
+}
+
+#bookFormSubmit {
+  width: 100%;
+  font-weight: bolder;
+}
+
+#searchSubmit {
+  width: 11%;
+}
+
+[data-testid="bookItem"] {
+  background-color: #fff2af;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+[data-testid="bookItemDeleteButton"] {
+  background-color: #d32f2f;
+}
+
+[data-testid="bookItemDeleteButton"]:hover {
+  background-color: #b71c1c;
+}
+
+[data-testid="bookItemIsCompleteButton"] {
+  background-color: #26de81;
+}
+
+[data-testid="bookItemIsCompleteButton"]:hover {
+  background-color: #20bf6b;
+}
+
+/* #incompleteBookList,
+#completeBookList {
+  padding: 20px;
+  border-radius: 5px;
+} */
