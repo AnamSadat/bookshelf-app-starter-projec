@@ -10,6 +10,7 @@
     <!-- <link rel="stylesheet" href="./assets/styles/oke.css" /> -->
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <script defer src="./assets/js/main.js"></script>
+    <!-- <script defer src="./assets/js/scriptt.js"></script> -->
     <!-- <script defer src="./assets/js/index.js"></script> -->
   </head>
   <body>
@@ -64,7 +65,7 @@
               type="submit"
               data-testid="bookFormSubmitButton"
             >
-              Masukkan Buku ke rak <span>Belum selesai dibaca</span>
+              Masukkan Buku ke Rak Buku
             </button>
           </form>
         </section>
@@ -88,8 +89,8 @@
           </form>
         </section>
 
-        <section class="card">
-          <h2>Belum selesai dibaca</h2>
+        <section class="card card-incomplete">
+          <h2 class="judul-baru1">Belum selesai dibaca</h2>
 
           <div id="incompleteBookList" data-testid="incompleteBookList">
             <!-- 
@@ -111,8 +112,8 @@
           </div>
         </section>
 
-        <section class="card">
-          <h2>Selesai dibaca</h2>
+        <section class="card card-complete">
+          <h2 class="judul-baru2">Selesai dibaca</h2>
 
           <div id="completeBookList" data-testid="completeBookList">
             <!-- 

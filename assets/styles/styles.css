@@ -116,8 +116,62 @@ button:hover {
   background-color: #20bf6b;
 }
 
-/* #incompleteBookList,
-#completeBookList {
+.container-pop-up {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-container {
+  background-color: white;
   padding: 20px;
-  border-radius: 5px;
-} */
+  border-radius: 10px;
+  width: 30%;
+  /* font-weight: bolder; */
+}
+
+#saveEdit {
+  background-color: #26de81;
+}
+#saveEdit:hover {
+  background-color: #20bf6b;
+}
+
+#cancelEdit {
+  background-color: #d32f2f;
+}
+
+#cancelEdit:hover {
+  background-color: #b71c1c;
+}
+
+.search-pop-up-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+#search-pop-up-content-text {
+  background-color: #fff2af;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.btn-confirm-delete {
+  background-color: #d32f2f;
+}
+
+.btn-confirm-delete:hover {
+  background-color: #b71c1c;
+}

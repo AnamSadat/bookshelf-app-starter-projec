@@ -93,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function toggleBookStatus(bookId) {
     let books = getBooks();
+    console.log("bookId = ", bookId);
     books = books.map((book) => {
       if (book.id === bookId) {
         book.isComplete = !book.isComplete;
